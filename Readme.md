@@ -1,33 +1,10 @@
-#  Lightweight python Motion Detection
-
-## Description
-Based on original code written by brainflakes and modified by pageauc
-user utpalc rewrote motion detection using picamera stream and pageauc
-modified this sample code to this example application
-This code uses the picamera python libraries rather than raspistill.
-Posted on Raspberry Pi forum under Lightweight Python Motion Detection
-Sample video posted at http://youtu.be/ZuHAfwZlzqY
-Code modified to exit image scanning loop as soon as the sensitivity value
-is exceeded. This speeds taking larger photo if motion detected early in scan
-Code is python3 compatible.
-This project is available on github at https://github.com/pageauc/picamera-motion
-
-***Note:*** This is sample code to assist development. For a full feature app
-see my pi-timolo GitHub repo at https://github.com/pageauc/pi-timolo
 
 ## How To Install
-Log in to RPI using putty ssh or raspberry pi console terminal session.
+Log in raspberry pi console terminal session.
 Prior to install it is recommended you run
 
     sudo apt-get update
     sudo apt-get upgrade
-
-Cut and Paste curl command below into RPI console/Putty SSH session.
-
-    curl -L https://raw.github.com/pageauc/picamera-motion/master/install.sh | bash
-
-Press enter key to run the install.sh bash script.  This will download files, install
-dependencies and change permissions as appropriate.
 
 ## How To Test Run
 
@@ -42,8 +19,6 @@ and/or webserver.py in Background as pi user. (when running PID will be displaye
 
     ./menubox.sh
 
-![menubox main menu](menubox.png)
-
 ## How to View Images
 Use menubox.sh to START webserver menu pick (PID will be displayed).
 This will run webserver.py as a pi user background task using default 8080 port per settings.py
@@ -57,8 +32,6 @@ Example
 Replace ip address above with a valid entry for your system.  Note multiple
 ip addresses may be displayed by menubox.sh message when you START webserver from menu pick
 To view web page image(s) select a link from right pane web page listing.   
-
-![Webserver Browser Example](webserver.jpg)
 
 Use browser refresh to update listing. Auto refresh can be enabled in settings.py
 per
@@ -112,9 +85,3 @@ Add/Edit the following entry.  Will run every 5 minutes as pi user
 ctrl-x y to exit and save changes
 
 
-That's it
-Please note this code is pretty basic but a good learning tool if
-you need to implement a simple python only motion detection application
-using the picamera python libraries.
-
-Claude Pageau
