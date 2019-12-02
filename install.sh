@@ -65,6 +65,3 @@ To Sync Data To an Existing Remote Storage Service name Eg. gdmedia using rclone
 
     cd ~/picamera-motion
     ./rclone-sync.sh
-
-Good Luck Claude ..
-"
