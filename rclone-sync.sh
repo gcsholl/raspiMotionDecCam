@@ -1,6 +1,6 @@
 #!/bin/bash
 progName=$(basename -- "$0")
-echo "$progName ver 1.5  written by Claude Pageau"
+echo "$progName ver 1.5  written by Gcsholl
 
 # Customize rclone sync variables Below
 # ---------------------------------------
