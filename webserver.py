@@ -14,8 +14,6 @@ PROG_VER = "ver 3.4 written by Claude Pageau"
 '''
  SimpleHTTPServer python program to allow selection of images from right panel and display in an iframe left panel
  Use for local network use only since this is not guaranteed to be a secure web server.
- based on original code by zeekay and modified by Claude Pageau Nov-2015 for use with pi-timolo.py on a Raspberry Pi
- from http://stackoverflow.com/questions/8044873/python-how-to-override-simplehttpserver-to-show-timestamp-in-directory-listing
 
  1 - Use nano editor to change webserver.py web_server_root and other variables to suit at bottom of config.py
      nano settings.py         # Webserver settings are near the end of the file
