@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "picamera-motion  Install  written by Claude Pageau"
+echo "picamera-motion  Install  written by Gcsholl"
 echo "INFO  : Create picamera-motion Folders ..."
 cd ~
 mkdir -p picamera-motion
