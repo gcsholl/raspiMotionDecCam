@@ -7,7 +7,7 @@
 progpath="/home/pi/picamera-motion"
 progname="picamera-motion.py"
 
-echo "$0 ver 1.1 written by Claude Pageau"
+echo "$0 ver 1.1 written by Gcsholl"
 echo "-----------------------------------------------"
 cd $progpath
 
