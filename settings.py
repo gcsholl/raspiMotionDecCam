@@ -1,5 +1,4 @@
 # User Configuration variable settings for webserver
-# Done by - Claude Pageau
 
 configTitle = "picamera-motion Default Settings"
 configName  = "settings.py"
