@@ -126,7 +126,7 @@ function do_settings_menu ()
 function do_upgrade ()
 {
   if (whiptail --title "GitHub Upgrade webserver" --yesno "Upgrade webserver files from GitHub" 8 65 --yes-button "upgrade" --no-button "Cancel" ) then
-    curl -L https://raw.github.com/pageauc/picamera-motion/master/install.sh | bash
+    curl -L https://raw.github.com/gcsholl/picamera-motion/master/install.sh | bash
     do_anykey
   fi
 }
@@ -144,7 +144,7 @@ function do_about ()
 
     View Readme.md (use menubox.sh help option)
     or
-    visit web repo at https://github.com/pageauc/picamera-motion
+    visit web repo at https://github.com/gcsholl/picamera-motion
     Raise a github issue for issues or questions
 
 \
