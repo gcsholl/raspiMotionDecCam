@@ -10,7 +10,7 @@ import urllib
 from SimpleHTTPServer import SimpleHTTPRequestHandler
 from StringIO import StringIO
 
-PROG_VER = "ver 3.4 written by Claude Pageau"
+PROG_VER = "ver 3.4 written by gcsholl"
 '''
  SimpleHTTPServer python program to allow selection of images from right panel and display in an iframe left panel
  Use for local network use only since this is not guaranteed to be a secure web server.
