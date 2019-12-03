@@ -185,7 +185,7 @@ def do_motion_detection():
 
 # Start Main Program Logic
 if __name__ == '__main__':
-    print("%s %s  written by Claude Pageau" % (PROG_NAME, PROG_VER))
+    print("%s %s  written by gcsholl" % (PROG_NAME, PROG_VER))
     print("---------------------------------------------")
     check_image_dir(imagePath)
     print("%s INFO  : Scan for Motion "
