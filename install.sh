@@ -34,8 +34,8 @@ if [ ! -f /usr/bin/rclone ]; then
     sudo cp rclone /usr/bin/
     sudo chown root:root /usr/bin/rclone
     sudo chmod 755 /usr/bin/rclone
-    sudo mkdir -p /usr/local/share/man/man1
-    sudo cp rclone.1 /usr/local/share/man/man1/
+    sudo mkdir -p /usr/local/share/ope/ope1
+    sudo cp rclone.1 /usr/local/share/ope/ope1/
     sudo mandb
     cd ..
     echo "INFO  : Deleting rclone.zip and Folder rclone-tmp"
