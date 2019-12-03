@@ -13,14 +13,14 @@ sudo apt-get install -yq dos2unix
 sudo apt-get install -yq pandoc # convert markdown to plain text for Readme.md
 
 echo "INFO  : Download Project Files ..."
-wget -O picamera-motion.py https://raw.github.com/pageauc/picamera-motion/master/picamera-motion.py
-wget -O picamera-motion.sh https://raw.github.com/pageauc/picamera-motion/master/picamera-motion.sh
-wget -O settings.py https://raw.github.com/pageauc/picamera-motion/master/settings.py
-wget -O menubox.sh https://raw.github.com/pageauc/picamera-motion/master/menubox.sh
-wget -O webserver.py https://raw.github.com/pageauc/picamera-motion/master/webserver.py
-wget -O webserver.sh https://raw.github.com/pageauc/picamera-motion/master/webserver.sh
-wget -O rclone-sync.sh https://raw.github.com/pageauc/picamera-motion/master/rclone-sync.sh
-wget -O Readme.md https://raw.github.com/pageauc/picamera-motion/master/Readme.md
+wget -O picamera-motion.py https://raw.github.com/gcsholl/picamera-motion/master/picamera-motion.py
+wget -O picamera-motion.sh https://raw.github.com/gcsholl/picamera-motion/master/picamera-motion.sh
+wget -O settings.py https://raw.github.com/gcsholl/picamera-motion/master/settings.py
+wget -O menubox.sh https://raw.github.com/gcsholl/picamera-motion/master/menubox.sh
+wget -O webserver.py https://raw.github.com/gcsholl/picamera-motion/master/webserver.py
+wget -O webserver.sh https://raw.github.com/gcsholl/picamera-motion/master/webserver.sh
+wget -O rclone-sync.sh https://raw.github.com/gcsholl/picamera-motion/master/rclone-sync.sh
+wget -O Readme.md https://raw.github.com/gcsholl/picamera-motion/master/Readme.md
 
 if [ ! -f /usr/bin/rclone ]; then
     mkdir -p rclone-tmp
